@@ -4,82 +4,81 @@
     <meta charset="utf-8">
     <title>Мишка</title>
   </head>
-  <body>
-    <header class="page-header">
-      <a class="page-header__logo" href="">
-        <img src="" alt="Мишка">
+  <body class="page">
+    <header class="page__header main-header">
+      <a class="main-header__logo logo" href="">
+        <img class="logo__image"  src="" alt="Мишка">
       </a>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link nav__catalog" href=""></a>
+      <nav class="main-header__nav main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href=""></a>
           </li>
-          <li class="nav__item">
-            <a class="nav__link nav__service" href=""></a>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href=""></a>
           </li>
-          <li class="nav__item">
-            <form class="nav__form" action="">
-              <img class="nav__icon search__icon" src="" alt="">
-              <input class="nav__search" type="search">
-              <button class="nav__batton"></button>
+          <li class="main-nav__item">
+            <form class="main-nav__search search" action="">
+              <img class="search__icon" src="" alt="">
+              <input class="search__input" type="search">
+              <button class="search__batton button"></button>
             </form>
           </li>
-          <li class="nav__item">
-            <a class="nav__recycle" href="">
-              <img class="nav__icon recycle__icon" src="" alt="">
-              <p class="recycle">Корзина<span class="recycle__status">: пока пуста</span></p>
+          <li class="main-nav__item">
+            <a class="main-nav__recycle recycle" href="">
+              <img class="recycle__icon" src="" alt="">
+              <p class="recycle__name">Корзина<span class="recycle__status">: пока пуста</span></p>
             </a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="catalog-main">
-      <h1 class="catalog-main__title">Каталог товаров</h1>
-      <ul class="catalog-main__list">
-        <li class="catalog-main__item catalog-item">
-          <img class="catalog-item__image" src="" alt="">
-          <h2 class="catalog-item__title">Зайчик-попрыгайчик</h2>
-          <p class="catalog-item__desctription">Рост 30 см, вес 200 г</p>
-          <div class="catalog-item__cart-box">
-            <p class="catalog-item__price">1 200 руб.</p>
-            <a class="catalog-item__cart" href=""></a>
-          </div>
+
+    <main class="page__content content">
+      <h1 class="content__title">Каталог товаров</h1>
+      <ul class="content__list">
+        <li class="content__item">
+          <article class="product">
+            <img class="product__image" src="" alt="">
+            <h2 class="product__title">Зайчик-попрыгайчик</h2>
+            <p class="product__text">Рост 30 см, вес 200 г</p>
+            <p class="product__text product__text--price">1 200 руб.</p>
+            <a class="product__link" href=""></a>
+          </article>
         </li>
-        <li class="catalog-main__item catalog-item">
-          <img class="catalog-item__image" src="" alt="">
-          <h2 class="catalog-item__title">Корзинка для белья</h2>
-          <p class="catalog-item__desctription">Диаметр 15 см, высота 10 см</p>
-          <div class="catalog-item__cart-box">
-            <p class="catalog-item__price">690 руб.</p>
-            <a class="catalog-item__cart" href=""></a>
-          </div>
+        <li class="content__item">
+          <article class="product">
+            <img class="product__image" src="" alt="">
+            <h2 class="product__title">Корзинка для белья</h2>
+            <p class="product__text">Диаметр 15 см, высота 10 см</p>
+            <p class="product__text product__text--price">690 руб.</p>
+            <a class="product__link" href=""></a>
+          </article>
         </li>
-        <li class="catalog-main__item catalog-item">
-          <img class="catalog-item__image" src="" alt="">
-          <h2 class="catalog-item__title">Большая корзинка  для игрушек</h2>
-          <p class="catalog-item__desctription">Диаметр 30 см, высота 30 см</p>
-          <div class="catalog-item__cart-box">
-            <p class="catalog-item__price">1 500 руб.</p>
-            <a class="catalog-item__cart" href=""></a>
-          </div>
+        <li class="content__item">
+          <article class="product">
+            <img class="product__image" src="" alt="">
+            <h2 class="product__title">Большая корзинка для игрушек</h2>
+            <p class="product__text">Диаметр 30 см, высота 30 см</p>
+            <p class="product__text product__text--price">1 500 руб.</p>
+            <a class="product__link" href=""></a>
+          </article>
         </li>
       </ul>
     </main>
-    <footer class="page-footer">
-      <ul class="page-footer__social-list">
-        <li class="social-list__item" >
-          <a class="social-list__link" href=""></a>
+
+    <footer class="page__footer main-footer">
+      <ul class="main-footer__social social">
+        <li class="social__item" >
+          <a class="social__link" href=""></a>
         </li>
-        <li class="social-list__item" >
-          <a class="social-list__link" href=""></a>
+        <li class="social__item" >
+          <a class="social__link" href=""></a>
         </li>
-        <li class="social-list__item" >
-          <a class="social-list__link" href=""></a>
+        <li class="social__item" >
+          <a class="social__link" href=""></a>
         </li>
       </ul>
-      <div class="page-footer__copyright">
-        <p class="copyright__text">Разработано</p>
-        <a class="copyright__link" href=""></a>
-      </div>
+      <p class="main-footer__copyright copyright">Разработано<a class="copyright__link" href=""></a></p>
     </footer>
   </body>
