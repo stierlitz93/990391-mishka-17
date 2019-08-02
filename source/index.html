@@ -2,11 +2,123 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
+    <title>Мишка</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="page">
+    <header class="page__header main-header">
+      <a class="main-header__logo logo" href="">
+        <img class="logo__image"  src="img/logo-mobile.svg" alt="Мишка">
+      </a>
+      <nav class="main-header__nav main-nav">
+        <ul class="main-nav__list reset-style-size">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="catalog.html">Каталог товаров</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="">Вязание на заказ</a>
+          </li>
+          <li class="main-nav__item">
+            <form class="main-nav__search search" action="">
+              <img class="search__icon" src="img/icon-search.svg" alt="Поиск">
+              <input class="search__input" type="search">
+              <button class="search__batton button"></button>
+            </form>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__recycle recycle" href="">
+              <img class="recycle__icon" src="img/icon-cart.svg" alt="Корзина">
+              <p class="recycle__name">Корзина<span class="recycle__status">: пока пуста</span></p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="promo">
+        <p class="promo__wright">Милые штуки ручной</br> работы для дома</p>
+        <ul class="promo__list reset-style-size">
+          <li class="promo__item">
+            <a class="promo__link" href="">Предметы интерьера</a>
+            <img src="img/icon-interior.svg" alt="">
+          </li>
+          <li class="promo__item">
+            <a class="promo__link" href="">Детские игрушки</a>
+            <img src="img/icon-toy.svg" alt="">
+          </li>
+        </ul>
+      </div>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+    <main class="page__content content">
+      <section class="content__product-week product-week">
+        <h2 class="product-week__title">Вязаные корзинки<span class="product-week__status">Товар недели</span></h2>
+        <p class="product-week__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+        <table class="product-week__specification table-spec">
+          <tr class="table-spec__row">
+            <td class="table-spec__col">Цвет</td>
+            <td class="table-spec__col">"Тифани"/серый</td>
+          </tr>
+          <tr class="table-spec__row">
+            <td class="table-spec__col">Диаметр</td>
+            <td class="table-spec__col">25 см</td>
+          </tr>
+          <tr class="table-spec__row">
+            <td class="table-spec__col">Высота</td>
+            <td class="table-spec__col">15 см</td>
+          </tr>
+        </table>
+        <img class="product-week__image" src="img/triple-set-mobile@1x.jpg" alt="">
+        <p class="product-week__price"><span class="product-week__price--text">Цена:</span>990 руб.<a class="product-week__link" href="">Заказать</a></p>
+      </section>
+      <section class="content__advantages advantages">
+        <h2 class="advantages__title">Коротко о нас:</h2>
+        <ul class="advantages__list reset-style-size">
+          <li class="advantages__item">
+            <img class="advantages__image" src="img/icon-feature-flower.svg" alt="">
+            <p class="advantages__description">Экологически чистые материалы</p>
+          </li>
+          <li class="advantages__item">
+            <img class="advantages__image" src="img/icon-feature-money.svg" alt="">
+            <p class="advantages__description">Скандинавский стиль по российской цене</p>
+          </li>
+          <li class="advantages__item">
+            <img class="advantages__image" src="img/icon-feature-heart.svg" alt="">
+            <p class="advantages__description">Увеличивает лайки на фотографиях</p>
+          </li>
+          <li class="advantages__item">
+            <img class="advantages__image" src="img/icon-feature-ball.svg" alt="">
+            <p class="advantages__description">Связано вручную с любовью и умилением</p>
+          </li>
+          <li class="advantages__item">
+            <img class="advantages__image" src="img/icon-feature-rocket.svg" alt="">
+            <p class="advantages__description">Поддержка отечественного производителя</p>
+          </li>
+          <li class="advantages__item">
+            <img class="advantages__image" src="img/icon-feature-gift.svg" alt="">
+            <p class="advantages__description">Поставляется в подарочной упаковке</p>
+          </li>
+        </ul>
+      </section>
+    </main>
 
+    <footer class="page__footer main-footer">
+      <ul class="main-footer__social social reset-style-size">
+        <li class="social__item" >
+          <a class="social__link" href="">
+            <img class="social__image" src="img/icon-insta.svg" alt="">
+          </a>
+        </li>
+        <li class="social__item" >
+          <a class="social__link" href="">
+            <img class="social__image" src="img/icon-fb.svg" alt="">
+          </a>
+        </li>
+        <li class="social__item" >
+          <a class="social__link" href="">
+            <img class="social__image" src="img/icon-twitter.svg" alt="">
+          </a>
+        </li>
+      </ul>
+      <p class="main-footer__copyright copyright">Разработано<a class="copyright__link" href=""><img class="copyright__image" src="img/logo-htmlacademy.svg" alt=""></a></p>
+    </footer>
   </body>
 </html>
