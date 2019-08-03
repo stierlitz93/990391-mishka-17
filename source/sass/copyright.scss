@@ -1,0 +1,16 @@
+.copyright {
+  width: 182px;
+  margin: auto;
+  margin-top: 55px;
+  font-family: "Open Sans bold", sans-serif;
+  font-size: 19px;
+  line-height: 18px;
+  &__link {
+    font-family: "Open Sans bold", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 155px;
+    margin-top: -23px;
+  }
+}

@@ -1,0 +1,33 @@
+.promo__wright {
+  font-family: "Open Sans bold", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  margin: 0;
+  width: 250px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 71px;
+  margin-bottom: 122px;
+  margin-left: 35px;
+}
+.promo__list {
+  background-color: #63d1bb;
+}
+.promo__item {
+  display: flex;
+  height: 103px;
+  img {
+    margin-left: auto;
+  }
+}
+.promo__link {
+  font-family: "Open Sans bold", sans-serif;
+  color: #fff;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 110px;
+  margin-left: 29px;
+  margin-top: 25px;
+  line-height: 24px;
+}
