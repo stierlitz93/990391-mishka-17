@@ -10,19 +10,23 @@
   margin-bottom: 122px;
   margin-left: 35px;
 }
+
 .promo__list {
   background-color: #63d1bb;
 }
+
 .promo__item {
   display: flex;
   height: 103px;
+
   img {
     margin-left: auto;
   }
 }
+
 .promo__link {
   font-family: "Open Sans bold", sans-serif;
-  color: #fff;
+  color: #ffffff;
   font-size: 19px;
   font-weight: bold;
   text-decoration: none;

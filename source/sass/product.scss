@@ -1,4 +1,4 @@
-.product__title{
+.product__title {
   font-family: "Open Sans bold", sans-serif;
   font-size: 17px;
   font-weight: bold;
@@ -9,15 +9,17 @@
   align-self: flex-start;
   width: 200px;
 }
+
 .product__text {
   font-size: 13px;
   line-height: 30px;
-  color: #444;
+  color: #444444;
   margin: 0;
   margin-top: 4px;
   margin-left: 28px;
   align-self: flex-start;
 }
+
 .product__text--price {
   font-family: "Open Sans bold", sans-serif;
   font-size: 15px;
