@@ -1,18 +1,17 @@
 .advantages__title {
-  font-family: "Open Sans bold", sans-serif;
   font-size: 25px;
-  font-weight: bold;
-  margin: 0;
-  margin-top: 67px;
-  margin-left: 28px;
+  margin: 67px 0 0 28px;
 }
 
 .advantages__list {
   margin-top: 29px;
+  height: 745px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .advantages__item {
-  height: 124px;
   width: 280px;
 }
 
@@ -21,11 +20,7 @@
 }
 
 .advantages__description {
-  font-family: "Open Sans bold", sans-serif;
   font-size: 17px;
-  font-weight: bold;
-  margin: 0;
-  margin-top: 13px;
-  margin-left: 29px;
+  margin: 13px 0 0 29px;
   line-height: 20px;
 }

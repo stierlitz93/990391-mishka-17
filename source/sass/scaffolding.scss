@@ -1,0 +1,31 @@
+.reset-style-size {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Open Sans bold", sans-serif;
+  font-weight: normal;
+  color: #000000;
+  width: 320px;
+}
+
+.text{
+  &--bold{
+    font-family: "Open Sans bold", sans-serif;
+  }
+
+  &--upper{
+    text-transform: uppercase;
+  }
+}

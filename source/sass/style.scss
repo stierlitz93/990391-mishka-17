@@ -1,39 +1,5 @@
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/opensans.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Open Sans bold";
-  src: url("../fonts/opensansbold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-
-.reset-style-size {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  clip: rect(0, 0, 0, 0);
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", sans-serif;
-  font-weight: normal;
-  color: #000000;
-  width: 320px;
-}
-
+@import "fonts.scss";
+@import "scaffolding.scss";
 @import "page.scss";
 @import "main-header.scss";
 @import "main-nav.scss";
@@ -44,3 +10,4 @@ body {
 @import "advantages.scss";
 @import "social.scss";
 @import "copyright.scss";
+@import "table.scss";

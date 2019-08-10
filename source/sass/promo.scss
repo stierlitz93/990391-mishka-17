@@ -1,14 +1,19 @@
+.promo {
+  background-image: url("../img/hero-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-color: #fafafa;
+  background-size: auto;
+  background-position: -128px -18px;
+  display: flex;
+  flex-direction: column;
+}
+
 .promo__wright {
-  font-family: "Open Sans bold", sans-serif;
   font-size: 27px;
-  font-weight: bold;
-  margin: 0;
-  width: 250px;
   text-align: center;
   line-height: 30px;
   margin-top: 71px;
   margin-bottom: 122px;
-  margin-left: 35px;
 }
 
 .promo__list {
@@ -18,17 +23,15 @@
 .promo__item {
   display: flex;
   height: 103px;
+}
 
-  img {
-    margin-left: auto;
-  }
+.promo__img {
+  margin-left: auto;
 }
 
 .promo__link {
-  font-family: "Open Sans bold", sans-serif;
   color: #ffffff;
   font-size: 19px;
-  font-weight: bold;
   text-decoration: none;
   width: 110px;
   margin-left: 29px;
