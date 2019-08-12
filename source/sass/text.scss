@@ -1,0 +1,10 @@
+.text {
+  &--bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+
+  &--upper {
+    text-transform: uppercase;
+  }
+}
