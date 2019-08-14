@@ -1,0 +1,37 @@
+.product-week {
+  padding: 0 30px 0 0;
+}
+
+.product-week__title {
+  font-size: 25px;
+  margin: 27px 0 0 30px;
+  line-height: 30px;
+}
+
+.product-week__status {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.product-week__description {
+  font-size: 15px;
+  line-height: 24px;
+  margin: 17px 0 0 30px;
+}
+
+.product-week__image {
+  margin-top: 28px;
+  margin-left: 30px;
+}
+
+.product-week__price {
+  font-size: 17px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-week__link {
+  margin: 26px 0 0 auto;
+}
