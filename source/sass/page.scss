@@ -1,7 +1,23 @@
 .page__header {
   background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.page__content {
+  display: flex;
+  justify-content: center;
 }
 
 .page__footer {
   background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (min-width: 768px) {
+  .page__header {
+    padding: 0 50px;
+  }
 }

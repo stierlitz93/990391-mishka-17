@@ -4,3 +4,9 @@
   padding: 12px 82px;
   border: 2px solid #444444;
 }
+
+@media (min-width: 768px) {
+  .button-link {
+    padding: 13px 100px;
+  }
+}

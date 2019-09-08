@@ -1,0 +1,19 @@
+.main-header__wrap {
+  position: relative;
+  min-width: 320px;
+}
+
+@media (min-width: 768px) {
+  .main-header__wrap {
+    position: relative;
+    min-width: 668px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-header__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

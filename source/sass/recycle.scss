@@ -4,5 +4,27 @@
   text-decoration: none;
   padding: 11px 0;
   display: flex;
-  background-color: #ececec;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .recycle {
+    padding: 33px 0 33px 82px;
+    position: absolute;
+    top: 0;
+    left: 404px;
+    background-image: url("../img/icon-cart.svg");
+    background-repeat: no-repeat;
+    background-position: 14% 50%;
+  }
+
+  .recycle__name {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .recycle {
+    position: static;
+  }
 }

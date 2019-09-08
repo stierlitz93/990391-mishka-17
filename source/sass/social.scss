@@ -2,7 +2,20 @@
   display: flex;
   width: 143px;
   justify-content: space-between;
-  margin: 25px auto auto;
+  padding: 25px 87px;
   align-items: center;
   flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .social {
+    margin-left: 140px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .social {
+    margin-left: 330px;
+  }
 }

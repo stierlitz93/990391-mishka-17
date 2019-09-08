@@ -28,5 +28,17 @@ body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: normal;
   color: #000000;
-  width: 320px;
+  min-width: 320px;
+}
+
+@media (min-width: 768px) {
+  body {
+    min-width: 768px;
+  }
+}
+
+@media (min-width: 1150px) {
+  body {
+    min-width: 1150px;
+  }
 }

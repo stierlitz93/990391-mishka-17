@@ -1,18 +1,18 @@
 .text {
-  &--bold {
+  &-bold {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
   }
 
-  &--upper {
+  &-upper {
     text-transform: uppercase;
   }
 
-  &--color-common {
+  &-color-common {
     color: #444444;
   }
 
-  &--color-promo {
+  &-color-promo {
     color: #63d1bb;
   }
 }

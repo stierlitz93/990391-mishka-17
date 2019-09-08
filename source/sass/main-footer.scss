@@ -1,7 +1,40 @@
+.main-footer__wrap {
+  position: relative;
+}
+
 .main-footer__copyright {
-  margin-top: 50px;
   margin-left: 69px;
   font-size: 19px;
   line-height: 28px;
   display: flex;
+}
+
+@media (min-width: 768px) {
+  .main-footer {
+    background-color: #f1f1f1;
+    padding: 50px;
+  }
+
+  .main-footer__wrap {
+    position: relative;
+    display: flex;
+    width: 668px;
+  }
+
+  .main-footer__logo {
+    width: 120px;
+    height: 40px;
+    background-image: url("../img/logo-footer.svg");
+    background-repeat: no-repeat;
+  }
+
+  .main-footer__copyright {
+    margin: 7px 0 0 auto;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-footer__wrap {
+    width: 1150px;
+  }
 }
