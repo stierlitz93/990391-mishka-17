@@ -1,6 +1,30 @@
+.main-nav {
+  padding: 0 30px;
+}
+
 .main-nav__link {
   font-size: 17px;
   color: #000000;
   text-decoration: none;
-  background-color: #ececec;
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    padding: 0;
+  }
+
+  .main-nav__list {
+    display: flex;
+  }
+
+  .main-nav__link {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-nav__link {
+    font-size: 17px;
+    margin-right: 34px;
+  }
 }

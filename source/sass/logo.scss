@@ -1,7 +1,31 @@
 .logo {
-  display: flex;
+  display: block;
+  height: 80px;
+  background-image: url("../img/logo-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: 116px 22px;
 }
 
 .logo__image {
   margin: 22px auto;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    display: block;
+    background-image: url("../img/logo-tablet.svg");
+    background-repeat: no-repeat;
+    background-position: 0 22px;
+    height: 89px;
+    width: 320px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .logo {
+    background-image: url("../img/logo-desktop.svg");
+    width: 151px;
+    background-position: 0 9px;
+    position: absolute;
+  }
 }

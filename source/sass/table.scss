@@ -9,5 +9,23 @@
 }
 
 .table-spec__col {
-  padding-left: 31px;
+  padding-right: 37px;
+}
+
+@media (min-width: 768px) {
+  .table-spec {
+    margin-top: 37px;
+    width: 41%;
+  }
+
+  .table-spec__col {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .table-spec {
+    margin: 46px 0 0 39px;
+    width: 35%;
+  }
 }
